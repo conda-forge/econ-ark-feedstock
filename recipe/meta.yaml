@@ -1,5 +1,5 @@
 {% set name = "econ-ark" %}
-{% set version = "0.10.0.dev2" %}
+{% set version = "0.10.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d14170e9a70d95c9380bc1bc16b73876d88a0c86d37e293ae84c6d052148d8f2
+  sha256: 3cad9a2dd17f56e05ffed95668a02c1b8dd3d1c3583872424098ad643c1484bf
 
 build:
   number: 0
