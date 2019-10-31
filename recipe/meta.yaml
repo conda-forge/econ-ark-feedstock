@@ -17,20 +17,18 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3
   run:
+    - python >=3
     - dill
-    - future
     - joblib
     - matplotlib
     - numpy
-    - numpydoc
-    - python
     - scipy
-    - sphinx
 
 test:
   imports:
+    - HARK
     - HARK.tests
 
 about:
