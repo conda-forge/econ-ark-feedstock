@@ -19,6 +19,8 @@ requirements:
     - pip
     - python >=3,<3.8
     - numpy
+    - scipy
+  
   run:
     - python >=3,<3.8
     - dill
