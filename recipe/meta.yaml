@@ -1,5 +1,5 @@
 {% set name = "econ-ark" %}
-{% set version = "0.10.4.rc1" %}
+{% set version = "0.10.4rc1" %}
 
 package:
   name: "{{ name|lower }}"
