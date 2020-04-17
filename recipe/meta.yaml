@@ -1,24 +1,24 @@
 {% set name = "econ-ark" %}
-{% set version = "0.10.5" %}
+{% set version = "0.10.6" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bbc05923eaeb86c1911f74e64eb35a94191b74ec1428e0ee424f4f37df64537e
+  sha256: 30d4a9a478ff93e7762dbae8231bf35eb0a34d7c8b54bad8322099a55ce41e21
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
 requirements:
   host:
     - pip
     - python >=3,<3.8
-  
+
   run:
     - python >=3,<3.8
     - dill
