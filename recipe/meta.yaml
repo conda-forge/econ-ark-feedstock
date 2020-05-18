@@ -10,7 +10,7 @@ source:
   sha256: 30d4a9a478ff93e7762dbae8231bf35eb0a34d7c8b54bad8322099a55ce41e21
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
   noarch: python
 
@@ -23,7 +23,7 @@ requirements:
     - python >=3,<3.8
     - dill
     - joblib
-    - matplotlib
+    - matplotlib-base
     - numpy
     - scipy
 
