@@ -118,4 +118,4 @@ Feedstock Maintainers
 
 * [@MridulS](https://github.com/MridulS/)
 * [@shaunagm](https://github.com/shaunagm/)
-
+* [@sbenthall](https://github.com/sbenthall)
