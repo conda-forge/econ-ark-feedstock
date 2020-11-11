@@ -21,7 +21,9 @@ requirements:
 
   run:
     - python >=3,<3.8
-    - dill
+    - quantecon
+    - interpolation
+    - numba
     - joblib
     - matplotlib-base
     - numpy
@@ -44,4 +46,3 @@ extra:
     - MridulS
     - shaunagm
     - sbenthall
-
