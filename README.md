@@ -3,13 +3,11 @@ About econ-ark
 
 Home: https://github.com/econ-ark/HARK
 
-Package license: Apache Software
+Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/econ-ark-feedstock/blob/master/LICENSE.txt)
 
 Summary: Heterogenous Agents Resources & toolKit
-
-
 
 Current build status
 ====================
@@ -117,5 +115,6 @@ Feedstock Maintainers
 =====================
 
 * [@MridulS](https://github.com/MridulS/)
-* [@sbenthall](https://github.com/sbenthall)
+* [@sbenthall](https://github.com/sbenthall/)
+* [@shaunagm](https://github.com/shaunagm/)
 
