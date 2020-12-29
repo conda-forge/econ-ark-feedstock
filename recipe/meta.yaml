@@ -10,17 +10,17 @@ source:
   sha256: f15bfd3a1a423f175cfaaabcb415f83182c844553cd9b6bfd45c816c8a242923
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3,<3.8
+    - python >=3,<3.9
 
   run:
-    - python >=3,<3.8
+    - python >=3,<3.9
     - quantecon
     - interpolation
     - numba
