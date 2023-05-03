@@ -1,5 +1,5 @@
 {% set name = "econ-ark" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3915dd3899481856203d671e64298fb4eda961ccdcf7adcb0dfd494d180f6f46
+  sha256: 9d06014cd2a636773d77f83007b1746e77f23d6cd940cb7f94cff8fff2b7ab5b
 
 build:
-  number: 1
+  number: 0
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
@@ -28,6 +28,7 @@ requirements:
     - matplotlib-base
     - numpy
     - scipy
+    - xarray
 
 test:
   imports:
