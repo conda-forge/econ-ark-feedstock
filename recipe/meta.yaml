@@ -17,18 +17,21 @@ build:
 requirements:
   host:
     - pip
-    - python >=3
+    - python >=3.10
 
   run:
-    - python >=3
+    - python >=3.10
     - quantecon
-    - interpolation
+    - interpolation >=2.2.3
     - numba
-    - joblib
-    - matplotlib-base
-    - numpy
-    - scipy
-    - xarray
+    - joblib >=1.2
+    - matplotlib-base >=3.6
+    - numpy >=1.23
+    - scipy >=1.10
+    - xarray >=2023
+    - networkx >=3
+    - pandas >=1.5
+    - seaborn >=0.12
 
 test:
   imports:
