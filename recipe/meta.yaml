@@ -23,7 +23,7 @@ requirements:
     - python >=3.10
     - quantecon
     - interpolation >=2.2.3
-    - numba
+    - numba ==0.59.1
     - joblib >=1.2
     - matplotlib-base >=3.6
     - numpy >=1.23
