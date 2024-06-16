@@ -1,5 +1,5 @@
 {% set name = "econ-ark" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7f8cf84f145b075831981e81ae8297bdd5a5bebd18278f39a6d19064371834fc
+  sha256: e63b85b295d012c3ed5f34beb4aefc6ec81b0ab0b4285c091c1874d3f1bfc0dc
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - python >=3.10
     - quantecon
     - interpolation >=2.2.3
-    - numba
+    - numba ==0.59.1
     - joblib >=1.2
     - matplotlib-base >=3.6
     - numpy >=1.23
