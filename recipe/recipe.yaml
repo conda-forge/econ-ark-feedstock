@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - interpolation >=2.2.3
-    - joblib >= 1.2
+    - joblib >=1.2
     - legacy-cgi
     - matplotlib-base >=3.6
     - networkx >=3
