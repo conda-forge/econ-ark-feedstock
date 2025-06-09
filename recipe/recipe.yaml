@@ -39,6 +39,7 @@ requirements:
     - sequence-jacobian
     - statsmodels>=0.14.2
     - xarray>=2023
+    - click
 tests:
   - python:
       imports:
