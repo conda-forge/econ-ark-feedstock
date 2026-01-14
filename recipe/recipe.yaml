@@ -1,7 +1,7 @@
 context:
-  python_min: 3.10
+  python_min: '3.10'
   name: econ-ark
-  version: 0.16.0
+  version: "0.16.1"
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 9d5999e5e890de98b096e18b984348b5ee7fb3fd837093ca61b693696c91a05f
+  sha256: bd9a82d263df90e7dc6226b6caeb1fc935da89bd83c504578036db4f3bf8d300
 
 build:
   number: 0
@@ -44,7 +44,6 @@ tests:
   - python:
       imports:
         - HARK
-        - HARK.tests
       python_version: ${{ python_min }}.*
 
 about:
