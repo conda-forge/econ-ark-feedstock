@@ -1,7 +1,7 @@
 context:
   python_min: '3.10'
   name: econ-ark
-  version: "0.17.0"
+  version: "0.17.1"
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 7578307d38508f7afb976023832d1aa7217e25ed58355073c982f6b0ff1fd97e
+  sha256: 6d347a943cb2cbd9ff0e6a6a88cd4baa8c5962f4b3ddfcab2f39b2b76c0bce66
 
 build:
   number: 0
